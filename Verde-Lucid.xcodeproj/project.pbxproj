@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD6086EF2B051A660007022E /* Verde_LucidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086EE2B051A660007022E /* Verde_LucidApp.swift */; };
+		DD6086F12B051A660007022E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086F02B051A660007022E /* ContentView.swift */; };
+		DD6086F32B051A6A0007022E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6086F22B051A6A0007022E /* Assets.xcassets */; };
+		DD6086F62B051A6A0007022E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6086F52B051A6A0007022E /* Preview Assets.xcassets */; };
+		DD6087002B051A6A0007022E /* Verde_LucidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086FF2B051A6A0007022E /* Verde_LucidTests.swift */; };
+		DD60870A2B051A6A0007022E /* Verde_LucidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6087092B051A6A0007022E /* Verde_LucidUITests.swift */; };
+		DD60870C2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD6086FC2B051A6A0007022E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6086E32B051A660007022E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6086EA2B051A660007022E;
+			remoteInfo = "Verde-Lucid";
+		};
+		DD6087062B051A6A0007022E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6086E32B051A660007022E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6086EA2B051A660007022E;
+			remoteInfo = "Verde-Lucid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD6086EB2B051A660007022E /* Verde-Lucid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verde-Lucid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6086EE2B051A660007022E /* Verde_LucidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidApp.swift; sourceTree = "<group>"; };
+		DD6086F02B051A660007022E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD6086F22B051A6A0007022E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD6086F52B051A6A0007022E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD6086FB2B051A6A0007022E /* Verde-LucidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verde-LucidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6086FF2B051A6A0007022E /* Verde_LucidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidTests.swift; sourceTree = "<group>"; };
+		DD6087052B051A6A0007022E /* Verde-LucidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verde-LucidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6087092B051A6A0007022E /* Verde_LucidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidUITests.swift; sourceTree = "<group>"; };
+		DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6086E82B051A660007022E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6086F82B051A6A0007022E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6087022B051A6A0007022E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD6086E22B051A660007022E = {
+			isa = PBXGroup;
+			children = (
+				DD6086ED2B051A660007022E /* Verde-Lucid */,
+				DD6086FE2B051A6A0007022E /* Verde-LucidTests */,
+				DD6087082B051A6A0007022E /* Verde-LucidUITests */,
+				DD6086EC2B051A660007022E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6086EC2B051A660007022E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6086EB2B051A660007022E /* Verde-Lucid.app */,
+				DD6086FB2B051A6A0007022E /* Verde-LucidTests.xctest */,
+				DD6087052B051A6A0007022E /* Verde-LucidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6086ED2B051A660007022E /* Verde-Lucid */ = {
+			isa = PBXGroup;
+			children = (
+				DD6086EE2B051A660007022E /* Verde_LucidApp.swift */,
+				DD6086F02B051A660007022E /* ContentView.swift */,
+				DD6086F22B051A6A0007022E /* Assets.xcassets */,
+				DD6086F42B051A6A0007022E /* Preview Content */,
+			);
+			path = "Verde-Lucid";
+			sourceTree = "<group>";
+		};
+		DD6086F42B051A6A0007022E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD6086F52B051A6A0007022E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD6086FE2B051A6A0007022E /* Verde-LucidTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6086FF2B051A6A0007022E /* Verde_LucidTests.swift */,
+			);
+			path = "Verde-LucidTests";
+			sourceTree = "<group>";
+		};
+		DD6087082B051A6A0007022E /* Verde-LucidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6087092B051A6A0007022E /* Verde_LucidUITests.swift */,
+				DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */,
+			);
+			path = "Verde-LucidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6086EA2B051A660007022E /* Verde-Lucid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD60870F2B051A6A0007022E /* Build configuration list for PBXNativeTarget "Verde-Lucid" */;
+			buildPhases = (
+				DD6086E72B051A660007022E /* Sources */,
+				DD6086E82B051A660007022E /* Frameworks */,
+				DD6086E92B051A660007022E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Verde-Lucid";
+			productName = "Verde-Lucid";
+			productReference = DD6086EB2B051A660007022E /* Verde-Lucid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD6086FA2B051A6A0007022E /* Verde-LucidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6087122B051A6A0007022E /* Build configuration list for PBXNativeTarget "Verde-LucidTests" */;
+			buildPhases = (
+				DD6086F72B051A6A0007022E /* Sources */,
+				DD6086F82B051A6A0007022E /* Frameworks */,
+				DD6086F92B051A6A0007022E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6086FD2B051A6A0007022E /* PBXTargetDependency */,
+			);
+			name = "Verde-LucidTests";
+			productName = "Verde-LucidTests";
+			productReference = DD6086FB2B051A6A0007022E /* Verde-LucidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD6087042B051A6A0007022E /* Verde-LucidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6087152B051A6A0007022E /* Build configuration list for PBXNativeTarget "Verde-LucidUITests" */;
+			buildPhases = (
+				DD6087012B051A6A0007022E /* Sources */,
+				DD6087022B051A6A0007022E /* Frameworks */,
+				DD6087032B051A6A0007022E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6087072B051A6A0007022E /* PBXTargetDependency */,
+			);
+			name = "Verde-LucidUITests";
+			productName = "Verde-LucidUITests";
+			productReference = DD6087052B051A6A0007022E /* Verde-LucidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6086E32B051A660007022E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DD6086EA2B051A660007022E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DD6086FA2B051A6A0007022E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DD6086EA2B051A660007022E;
+					};
+					DD6087042B051A6A0007022E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DD6086EA2B051A660007022E;
+					};
+				};
+			};
+			buildConfigurationList = DD6086E62B051A660007022E /* Build configuration list for PBXProject "Verde-Lucid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD6086E22B051A660007022E;
+			productRefGroup = DD6086EC2B051A660007022E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6086EA2B051A660007022E /* Verde-Lucid */,
+				DD6086FA2B051A6A0007022E /* Verde-LucidTests */,
+				DD6087042B051A6A0007022E /* Verde-LucidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6086E92B051A660007022E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6086F62B051A6A0007022E /* Preview Assets.xcassets in Resources */,
+				DD6086F32B051A6A0007022E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6086F92B051A6A0007022E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6087032B051A6A0007022E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6086E72B051A660007022E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6086F12B051A660007022E /* ContentView.swift in Sources */,
+				DD6086EF2B051A660007022E /* Verde_LucidApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6086F72B051A6A0007022E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6087002B051A6A0007022E /* Verde_LucidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6087012B051A6A0007022E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD60870A2B051A6A0007022E /* Verde_LucidUITests.swift in Sources */,
+				DD60870C2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD6086FD2B051A6A0007022E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6086EA2B051A660007022E /* Verde-Lucid */;
+			targetProxy = DD6086FC2B051A6A0007022E /* PBXContainerItemProxy */;
+		};
+		DD6087072B051A6A0007022E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6086EA2B051A660007022E /* Verde-Lucid */;
+			targetProxy = DD6087062B051A6A0007022E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD60870D2B051A6A0007022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD60870E2B051A6A0007022E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD6087102B051A6A0007022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Verde-Lucid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrauma.Verde-Lucid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6087112B051A6A0007022E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Verde-Lucid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrauma.Verde-Lucid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD6087132B051A6A0007022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrauma.Verde-LucidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verde-Lucid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Verde-Lucid";
+			};
+			name = Debug;
+		};
+		DD6087142B051A6A0007022E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrauma.Verde-LucidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Verde-Lucid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Verde-Lucid";
+			};
+			name = Release;
+		};
+		DD6087162B051A6A0007022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrauma.Verde-LucidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Verde-Lucid";
+			};
+			name = Debug;
+		};
+		DD6087172B051A6A0007022E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cybertrauma.Verde-LucidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Verde-Lucid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6086E62B051A660007022E /* Build configuration list for PBXProject "Verde-Lucid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD60870D2B051A6A0007022E /* Debug */,
+				DD60870E2B051A6A0007022E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD60870F2B051A6A0007022E /* Build configuration list for PBXNativeTarget "Verde-Lucid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6087102B051A6A0007022E /* Debug */,
+				DD6087112B051A6A0007022E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6087122B051A6A0007022E /* Build configuration list for PBXNativeTarget "Verde-LucidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6087132B051A6A0007022E /* Debug */,
+				DD6087142B051A6A0007022E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6087152B051A6A0007022E /* Build configuration list for PBXNativeTarget "Verde-LucidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6087162B051A6A0007022E /* Debug */,
+				DD6087172B051A6A0007022E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6086E32B051A660007022E /* Project object */;
+}
