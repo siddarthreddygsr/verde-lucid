@@ -11,7 +11,7 @@ import SwiftUI
 struct Verde_LucidApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductsListView()
         }
     }
 }

@@ -14,6 +14,8 @@
 		DD6087002B051A6A0007022E /* Verde_LucidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086FF2B051A6A0007022E /* Verde_LucidTests.swift */; };
 		DD60870A2B051A6A0007022E /* Verde_LucidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6087092B051A6A0007022E /* Verde_LucidUITests.swift */; };
 		DD60870C2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */; };
+		DD6087192B05824F0007022E /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6087182B05824F0007022E /* ProductsListView.swift */; };
+		DD60871B2B05D3FD0007022E /* ListProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD60871A2B05D3FD0007022E /* ListProductsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		DD6087052B051A6A0007022E /* Verde-LucidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verde-LucidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6087092B051A6A0007022E /* Verde_LucidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidUITests.swift; sourceTree = "<group>"; };
 		DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD6087182B05824F0007022E /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
+		DD60871A2B05D3FD0007022E /* ListProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				DD6086F02B051A660007022E /* ContentView.swift */,
 				DD6086F22B051A6A0007022E /* Assets.xcassets */,
 				DD6086F42B051A6A0007022E /* Preview Content */,
+				DD6087182B05824F0007022E /* ProductsListView.swift */,
+				DD60871A2B05D3FD0007022E /* ListProductsView.swift */,
 			);
 			path = "Verde-Lucid";
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD60871B2B05D3FD0007022E /* ListProductsView.swift in Sources */,
 				DD6086F12B051A660007022E /* ContentView.swift in Sources */,
 				DD6086EF2B051A660007022E /* Verde_LucidApp.swift in Sources */,
+				DD6087192B05824F0007022E /* ProductsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
