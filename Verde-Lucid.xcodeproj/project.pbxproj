@@ -16,6 +16,9 @@
 		DD60870C2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */; };
 		DD6087192B05824F0007022E /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6087182B05824F0007022E /* ProductsListView.swift */; };
 		DD60871B2B05D3FD0007022E /* ListProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD60871A2B05D3FD0007022E /* ListProductsView.swift */; };
+		DD60871E2B07AAE00007022E /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = DD60871D2B07AAE00007022E /* AWSCognitoAuthPlugin */; };
+		DD6087202B07AAE10007022E /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = DD60871F2B07AAE10007022E /* AWSS3StoragePlugin */; };
+		DD6087222B07AAE10007022E /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = DD6087212B07AAE10007022E /* Amplify */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6087222B07AAE10007022E /* Amplify in Frameworks */,
+				DD60871E2B07AAE00007022E /* AWSCognitoAuthPlugin in Frameworks */,
+				DD6087202B07AAE10007022E /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +155,11 @@
 			dependencies = (
 			);
 			name = "Verde-Lucid";
+			packageProductDependencies = (
+				DD60871D2B07AAE00007022E /* AWSCognitoAuthPlugin */,
+				DD60871F2B07AAE10007022E /* AWSS3StoragePlugin */,
+				DD6087212B07AAE10007022E /* Amplify */,
+			);
 			productName = "Verde-Lucid";
 			productReference = DD6086EB2B051A660007022E /* Verde-Lucid.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +232,9 @@
 				Base,
 			);
 			mainGroup = DD6086E22B051A660007022E;
+			packageReferences = (
+				DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
 			productRefGroup = DD6086EC2B051A660007022E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -430,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Verde-Lucid/Preview Content\"";
+				DEVELOPMENT_TEAM = TJRFD45SQL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -458,6 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Verde-Lucid/Preview Content\"";
+				DEVELOPMENT_TEAM = TJRFD45SQL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -590,6 +606,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.22.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD60871D2B07AAE00007022E /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		DD60871F2B07AAE10007022E /* AWSS3StoragePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSS3StoragePlugin;
+		};
+		DD6087212B07AAE10007022E /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD6086E32B051A660007022E /* Project object */;
 }
