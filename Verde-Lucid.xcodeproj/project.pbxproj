@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D572EB7A3020D9BC4A1DC8 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BCB3173CB786DED601EDF31B /* amplifyconfiguration.json */; };
+		B7D4E37E1A75071D9A2C51CC /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B53045FA2CA61D0C2CA01033 /* awsconfiguration.json */; };
+		DD2F47D52B0830FA0085588E /* ButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F47D42B0830FA0085588E /* ButtonUIView.swift */; };
 		DD6086EF2B051A660007022E /* Verde_LucidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086EE2B051A660007022E /* Verde_LucidApp.swift */; };
 		DD6086F12B051A660007022E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086F02B051A660007022E /* ContentView.swift */; };
 		DD6086F32B051A6A0007022E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6086F22B051A6A0007022E /* Assets.xcassets */; };
@@ -15,10 +18,11 @@
 		DD60870A2B051A6A0007022E /* Verde_LucidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6087092B051A6A0007022E /* Verde_LucidUITests.swift */; };
 		DD60870C2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */; };
 		DD6087192B05824F0007022E /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6087182B05824F0007022E /* ProductsListView.swift */; };
-		DD60871B2B05D3FD0007022E /* ListProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD60871A2B05D3FD0007022E /* ListProductsView.swift */; };
 		DD60871E2B07AAE00007022E /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = DD60871D2B07AAE00007022E /* AWSCognitoAuthPlugin */; };
 		DD6087202B07AAE10007022E /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = DD60871F2B07AAE10007022E /* AWSS3StoragePlugin */; };
 		DD6087222B07AAE10007022E /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = DD6087212B07AAE10007022E /* Amplify */; };
+		DD9F77E42B084E5F00797F8D /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F77E32B084E5F00797F8D /* AddProductView.swift */; };
+		DD9F77E72B084FD400797F8D /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = DD9F77E62B084FD400797F8D /* Neumorphic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B53045FA2CA61D0C2CA01033 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		BCB3173CB786DED601EDF31B /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		DD2F47D42B0830FA0085588E /* ButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUIView.swift; sourceTree = "<group>"; };
 		DD6086EB2B051A660007022E /* Verde-Lucid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verde-Lucid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6086EE2B051A660007022E /* Verde_LucidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidApp.swift; sourceTree = "<group>"; };
 		DD6086F02B051A660007022E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,7 +57,7 @@
 		DD6087092B051A6A0007022E /* Verde_LucidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidUITests.swift; sourceTree = "<group>"; };
 		DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DD6087182B05824F0007022E /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
-		DD60871A2B05D3FD0007022E /* ListProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductsView.swift; sourceTree = "<group>"; };
+		DD9F77E32B084E5F00797F8D /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9F77E72B084FD400797F8D /* Neumorphic in Frameworks */,
 				DD6087222B07AAE10007022E /* Amplify in Frameworks */,
 				DD60871E2B07AAE00007022E /* AWSCognitoAuthPlugin in Frameworks */,
 				DD6087202B07AAE10007022E /* AWSS3StoragePlugin in Frameworks */,
@@ -81,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3760B1474B6F07421FE32758 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				B53045FA2CA61D0C2CA01033 /* awsconfiguration.json */,
+				BCB3173CB786DED601EDF31B /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
 		DD6086E22B051A660007022E = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +105,7 @@
 				DD6086FE2B051A6A0007022E /* Verde-LucidTests */,
 				DD6087082B051A6A0007022E /* Verde-LucidUITests */,
 				DD6086EC2B051A660007022E /* Products */,
+				3760B1474B6F07421FE32758 /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,7 +127,8 @@
 				DD6086F22B051A6A0007022E /* Assets.xcassets */,
 				DD6086F42B051A6A0007022E /* Preview Content */,
 				DD6087182B05824F0007022E /* ProductsListView.swift */,
-				DD60871A2B05D3FD0007022E /* ListProductsView.swift */,
+				DD2F47D42B0830FA0085588E /* ButtonUIView.swift */,
+				DD9F77E32B084E5F00797F8D /* AddProductView.swift */,
 			);
 			path = "Verde-Lucid";
 			sourceTree = "<group>";
@@ -159,6 +178,7 @@
 				DD60871D2B07AAE00007022E /* AWSCognitoAuthPlugin */,
 				DD60871F2B07AAE10007022E /* AWSS3StoragePlugin */,
 				DD6087212B07AAE10007022E /* Amplify */,
+				DD9F77E62B084FD400797F8D /* Neumorphic */,
 			);
 			productName = "Verde-Lucid";
 			productReference = DD6086EB2B051A660007022E /* Verde-Lucid.app */;
@@ -234,6 +254,7 @@
 			mainGroup = DD6086E22B051A660007022E;
 			packageReferences = (
 				DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */,
+				DD9F77E52B084FD400797F8D /* XCRemoteSwiftPackageReference "neumorphic" */,
 			);
 			productRefGroup = DD6086EC2B051A660007022E /* Products */;
 			projectDirPath = "";
@@ -253,6 +274,8 @@
 			files = (
 				DD6086F62B051A6A0007022E /* Preview Assets.xcassets in Resources */,
 				DD6086F32B051A6A0007022E /* Assets.xcassets in Resources */,
+				B7D4E37E1A75071D9A2C51CC /* awsconfiguration.json in Resources */,
+				15D572EB7A3020D9BC4A1DC8 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD60871B2B05D3FD0007022E /* ListProductsView.swift in Sources */,
+				DD2F47D52B0830FA0085588E /* ButtonUIView.swift in Sources */,
 				DD6086F12B051A660007022E /* ContentView.swift in Sources */,
 				DD6086EF2B051A660007022E /* Verde_LucidApp.swift in Sources */,
 				DD6087192B05824F0007022E /* ProductsListView.swift in Sources */,
+				DD9F77E42B084E5F00797F8D /* AddProductView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +640,14 @@
 				minimumVersion = 2.22.0;
 			};
 		};
+		DD9F77E52B084FD400797F8D /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -633,6 +665,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */;
 			productName = Amplify;
+		};
+		DD9F77E62B084FD400797F8D /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9F77E52B084FD400797F8D /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

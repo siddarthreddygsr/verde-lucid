@@ -1,0 +1,37 @@
+.sheet(item: $selectedProduct) { product in
+                                        VStack {
+                                            AsyncImage(url: URL(string: product.image)) { phase in
+                                                switch phase {
+                                                case .empty:
+                                                    ProgressView() // Placeholder view while loading
+                                                case .success(let image):
+                                                    image
+                                                        .resizable()
+                                                        .aspectRatio(contentMode: .fit)
+                                                        .matchedGeometryEffect(id: "\(product.id)_image", in: namespace)
+                                                case .failure:
+                                                    Image(systemName: "photo") // Placeholder when image fails to load
+                                                        .symbolRenderingMode(.multicolor)
+                                                        .foregroundColor(.gray)
+                                                @unknown default:
+                                                    EmptyView()
+                                                }
+                                            }
+                
+                                            .padding(20)
+                                            Text("Product: \(product.product_name.replacingOccurrences(of: "\n", with: ""))")
+                                                .font(.title.weight(.bold))
+                                                .matchedGeometryEffect(id: product.id, in: namespace)
+                                                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading)
+                                            Text("Product: \(product.product_type.replacingOccurrences(of: "\n", with: ""))")
+                                                .matchedGeometryEffect(id: "\(product.id)_type", in: namespace)
+                                                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading)
+                                            Text("Price: \(String(format: "%.2f", product.price))")
+                                                .matchedGeometryEffect(id: "\(product.id)_price", in: namespace)
+                                                .frame(maxWidth: .infinity,alignment: .leading)
+                                            Text("Tax: \(String(format: "%.2f", product.tax))")
+                                                .matchedGeometryEffect(id: "\(product.id)_tax", in: namespace)
+                                                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading)
+                                            // Add other product information here as needed
+                                        }
+                                    }
