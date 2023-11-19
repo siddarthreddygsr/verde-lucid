@@ -2,6 +2,7 @@
 
 
 ## Working Demo
+This GIF is large in size and may take time to load.<br>
 <img src="images/output-gif.gif" alt="App working demo" height="300">
 <br>
 This gif can be found at images/output-gif.gif
