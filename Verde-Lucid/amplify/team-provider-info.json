@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-verdelucid-dev-53817-authRole",
+      "UnauthRoleArn": "arn:aws:iam::367627488015:role/amplify-verdelucid-dev-53817-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::367627488015:role/amplify-verdelucid-dev-53817-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-verdelucid-dev-53817-deployment",
+      "UnauthRoleName": "amplify-verdelucid-dev-53817-unauthRole",
+      "StackName": "amplify-verdelucid-dev-53817",
+      "StackId": "arn:aws:cloudformation:us-east-1:367627488015:stack/amplify-verdelucid-dev-53817/967c2dd0-85a6-11ee-bce9-0e91a378eda1",
+      "AmplifyAppId": "dbxoxwnbektmv"
+    }
+  }
+}

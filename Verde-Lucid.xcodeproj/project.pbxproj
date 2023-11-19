@@ -98,6 +98,13 @@
 			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
+		38199DA2878466C6B55CCFC9 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AmplifyModels;
+			sourceTree = "<group>";
+		};
 		DD6086E22B051A660007022E = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +113,7 @@
 				DD6087082B051A6A0007022E /* Verde-LucidUITests */,
 				DD6086EC2B051A660007022E /* Products */,
 				3760B1474B6F07421FE32758 /* AmplifyConfig */,
+				38199DA2878466C6B55CCFC9 /* AmplifyModels */,
 			);
 			sourceTree = "<group>";
 		};
