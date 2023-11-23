@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		15D572EB7A3020D9BC4A1DC8 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BCB3173CB786DED601EDF31B /* amplifyconfiguration.json */; };
 		B7D4E37E1A75071D9A2C51CC /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B53045FA2CA61D0C2CA01033 /* awsconfiguration.json */; };
-		DD2F47D52B0830FA0085588E /* ButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F47D42B0830FA0085588E /* ButtonUIView.swift */; };
 		DD6086EF2B051A660007022E /* Verde_LucidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086EE2B051A660007022E /* Verde_LucidApp.swift */; };
 		DD6086F12B051A660007022E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086F02B051A660007022E /* ContentView.swift */; };
 		DD6086F32B051A6A0007022E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6086F22B051A6A0007022E /* Assets.xcassets */; };
@@ -23,6 +22,10 @@
 		DD6087222B07AAE10007022E /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = DD6087212B07AAE10007022E /* Amplify */; };
 		DD9F77E42B084E5F00797F8D /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F77E32B084E5F00797F8D /* AddProductView.swift */; };
 		DD9F77E72B084FD400797F8D /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = DD9F77E62B084FD400797F8D /* Neumorphic */; };
+		DDBE5ADF2B0FAA0B00329CFC /* NeumorphicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE5ADE2B0FAA0A00329CFC /* NeumorphicTextField.swift */; };
+		DDBE5AE12B0FAA9C00329CFC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE5AE02B0FAA9C00329CFC /* Product.swift */; };
+		DDBE5AE32B0FAC0600329CFC /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE5AE22B0FAC0600329CFC /* ProductListViewModel.swift */; };
+		DDBE5AE52B0FEB5300329CFC /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE5AE42B0FEB5300329CFC /* ProductItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +48,6 @@
 /* Begin PBXFileReference section */
 		B53045FA2CA61D0C2CA01033 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		BCB3173CB786DED601EDF31B /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
-		DD2F47D42B0830FA0085588E /* ButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUIView.swift; sourceTree = "<group>"; };
 		DD6086EB2B051A660007022E /* Verde-Lucid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verde-Lucid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6086EE2B051A660007022E /* Verde_LucidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidApp.swift; sourceTree = "<group>"; };
 		DD6086F02B051A660007022E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,10 @@
 		DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DD6087182B05824F0007022E /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
 		DD9F77E32B084E5F00797F8D /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		DDBE5ADE2B0FAA0A00329CFC /* NeumorphicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicTextField.swift; sourceTree = "<group>"; };
+		DDBE5AE02B0FAA9C00329CFC /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DDBE5AE22B0FAC0600329CFC /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		DDBE5AE42B0FEB5300329CFC /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +141,11 @@
 				DD6086F22B051A6A0007022E /* Assets.xcassets */,
 				DD6086F42B051A6A0007022E /* Preview Content */,
 				DD6087182B05824F0007022E /* ProductsListView.swift */,
-				DD2F47D42B0830FA0085588E /* ButtonUIView.swift */,
+				DDBE5ADE2B0FAA0A00329CFC /* NeumorphicTextField.swift */,
 				DD9F77E32B084E5F00797F8D /* AddProductView.swift */,
+				DDBE5AE02B0FAA9C00329CFC /* Product.swift */,
+				DDBE5AE22B0FAC0600329CFC /* ProductListViewModel.swift */,
+				DDBE5AE42B0FEB5300329CFC /* ProductItemView.swift */,
 			);
 			path = "Verde-Lucid";
 			sourceTree = "<group>";
@@ -308,11 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2F47D52B0830FA0085588E /* ButtonUIView.swift in Sources */,
+				DDBE5ADF2B0FAA0B00329CFC /* NeumorphicTextField.swift in Sources */,
 				DD6086F12B051A660007022E /* ContentView.swift in Sources */,
 				DD6086EF2B051A660007022E /* Verde_LucidApp.swift in Sources */,
+				DDBE5AE52B0FEB5300329CFC /* ProductItemView.swift in Sources */,
+				DDBE5AE32B0FAC0600329CFC /* ProductListViewModel.swift in Sources */,
 				DD6087192B05824F0007022E /* ProductsListView.swift in Sources */,
 				DD9F77E42B084E5F00797F8D /* AddProductView.swift in Sources */,
+				DDBE5AE12B0FAA9C00329CFC /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
