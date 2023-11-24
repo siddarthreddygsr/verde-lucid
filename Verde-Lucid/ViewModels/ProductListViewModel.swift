@@ -10,7 +10,6 @@
 import SwiftUI
 
 class ProductsListViewModel: ObservableObject {
-    @Published var show = false
     @Published var selectedProduct: Product? = nil
     @Published var isAddProductViewActive = false
     @Published var showAlert = false
@@ -23,7 +22,7 @@ class ProductsListViewModel: ObservableObject {
         isLoading = true
         guard let url = URL(string: "https://app.getswipe.in/api/public/get") else { return }
 
-        URLSession.shared.dataTask(with: url) { [weak self] (data, response, error) in
+        let task = URLSession.shared.dataTask(with: url) { [weak self] (data, response, error) in
             guard let self = self else { return }
 
             defer { self.isLoading = false }
@@ -46,7 +45,20 @@ class ProductsListViewModel: ObservableObject {
                     print("Error decoding: ", error)
                 }
             }
-        }.resume()
+        }
+        
+        let timeoutDuration: TimeInterval = 5
+            let timeoutWorkItem = DispatchWorkItem {
+                task.cancel()
+                DispatchQueue.main.async {
+                    self.isLoading = false
+                    print("API down: Timeout occurred")
+                }
+            }
+
+            DispatchQueue.global().asyncAfter(deadline: .now() + timeoutDuration, execute: timeoutWorkItem)
+
+        task.resume()
     }
 
     func filterProducts() {
