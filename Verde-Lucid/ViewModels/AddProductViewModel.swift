@@ -34,13 +34,13 @@ class AddProductViewModel: ObservableObject {
             return
         }
         
-        guard let priceValue = Float(price) else {
+        guard let _ = Float(price) else {
             showAlert = true
             responseString = "Given Price value is neither a float nor an integer."
             return
         }
         
-        guard let taxValue = Float(tax) else {
+        guard let _ = Float(tax) else {
             showAlert = true
             responseString = "Given tax value is neither a float nor an integer."
             return
@@ -116,7 +116,7 @@ class AddProductViewModel: ObservableObject {
                                 // Product addition was successful
                                 if let productDetails = jsonResponse?["product_details"] as? [String: Any],
                                    let productName = productDetails["product_name"] as? String {
-                                    print(jsonResponse)
+                                    print(jsonResponse ?? "JSON missing")
                                     responseString = "Success: \(productName) was added successfully!\n Product ID: \(String(describing: jsonResponse?["product_id"]))"
                                 } else {
                                     responseString = "Failed: Unable to get product details."
@@ -132,7 +132,7 @@ class AddProductViewModel: ObservableObject {
                             let alert = UIAlertController(title: "Product Addition", message: self.responseString, preferredStyle: .alert)
                             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                             
-                            resetFields()
+                            self.resetFields()
                             self.showAlert.toggle()
                             
                         }

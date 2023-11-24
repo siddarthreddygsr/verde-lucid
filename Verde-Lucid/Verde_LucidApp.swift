@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Verde_LucidApp: App {    
+struct Verde_LucidApp: App {
     var body: some Scene {
         WindowGroup {
             ProductsListView()

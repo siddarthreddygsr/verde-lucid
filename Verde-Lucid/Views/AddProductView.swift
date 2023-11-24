@@ -82,7 +82,7 @@ struct AddProductView: View {
                     .padding(20)
             }
 
-            .onChange(of: viewModel.selectedImage) { _ in
+            .onChange(of: viewModel.selectedImage) { 
                 viewModel.handleSelectedImageChange()
             }
             

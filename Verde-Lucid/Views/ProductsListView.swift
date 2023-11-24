@@ -41,7 +41,7 @@ struct ProductsListView: View {
         .onAppear {
             viewModel.fetchProducts()
         }
-        .onChange(of: viewModel.searchText) { newValue in
+        .onChange(of: viewModel.searchText) {
             viewModel.filterProducts()
         }
     }
