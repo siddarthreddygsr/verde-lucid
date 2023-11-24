@@ -9,9 +9,9 @@ import SwiftUI
 
 struct DarkModeManager {
     static var isDarkMode: Bool {
-        guard let window = UIApplication.shared.windows.first else {
-            return false // Defaulting to false if unable to retrieve the window
+        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+            return windowScene.windows.first(where: { $0.isKeyWindow })?.traitCollection.userInterfaceStyle == .dark
         }
-        return window.rootViewController?.traitCollection.userInterfaceStyle == .dark
+        return false // Defaulting to false if unable to retrieve the window scene
     }
 }

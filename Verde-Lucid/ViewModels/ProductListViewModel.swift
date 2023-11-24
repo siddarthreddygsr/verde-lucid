@@ -7,7 +7,7 @@
 //
 
 
-import SwiftUI
+import Foundation
 
 class ProductsListViewModel: ObservableObject {
     @Published var selectedProduct: Product? = nil
@@ -52,7 +52,7 @@ class ProductsListViewModel: ObservableObject {
                 task.cancel()
                 DispatchQueue.main.async {
                     self.isLoading = false
-                    print("API down: Timeout occurred")
+                    print("5 second timer up. If you dont see any products, then the API gateway is probably down.")
                 }
             }
 
