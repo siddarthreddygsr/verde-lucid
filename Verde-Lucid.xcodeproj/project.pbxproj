@@ -16,9 +16,6 @@
 		DD60870A2B051A6A0007022E /* Verde_LucidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6087092B051A6A0007022E /* Verde_LucidUITests.swift */; };
 		DD60870C2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD60870B2B051A6A0007022E /* Verde_LucidUITestsLaunchTests.swift */; };
 		DD6087192B05824F0007022E /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6087182B05824F0007022E /* ProductsListView.swift */; };
-		DD60871E2B07AAE00007022E /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = DD60871D2B07AAE00007022E /* AWSCognitoAuthPlugin */; };
-		DD6087202B07AAE10007022E /* AWSS3StoragePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = DD60871F2B07AAE10007022E /* AWSS3StoragePlugin */; };
-		DD6087222B07AAE10007022E /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = DD6087212B07AAE10007022E /* Amplify */; };
 		DD9F77E42B084E5F00797F8D /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9F77E32B084E5F00797F8D /* AddProductView.swift */; };
 		DD9F77E72B084FD400797F8D /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = DD9F77E62B084FD400797F8D /* Neumorphic */; };
 		DDBE5ADF2B0FAA0B00329CFC /* NeumorphicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBE5ADE2B0FAA0A00329CFC /* NeumorphicTextField.swift */; };
@@ -78,9 +75,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9F77E72B084FD400797F8D /* Neumorphic in Frameworks */,
-				DD6087222B07AAE10007022E /* Amplify in Frameworks */,
-				DD60871E2B07AAE00007022E /* AWSCognitoAuthPlugin in Frameworks */,
-				DD6087202B07AAE10007022E /* AWSS3StoragePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,9 +227,6 @@
 			);
 			name = "Verde-Lucid";
 			packageProductDependencies = (
-				DD60871D2B07AAE00007022E /* AWSCognitoAuthPlugin */,
-				DD60871F2B07AAE10007022E /* AWSS3StoragePlugin */,
-				DD6087212B07AAE10007022E /* Amplify */,
 				DD9F77E62B084FD400797F8D /* Neumorphic */,
 			);
 			productName = "Verde-Lucid";
@@ -311,7 +302,6 @@
 			);
 			mainGroup = DD6086E22B051A660007022E;
 			packageReferences = (
-				DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */,
 				DD9F77E52B084FD400797F8D /* XCRemoteSwiftPackageReference "neumorphic" */,
 			);
 			productRefGroup = DD6086EC2B051A660007022E /* Products */;
@@ -696,14 +686,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.22.0;
-			};
-		};
 		DD9F77E52B084FD400797F8D /* XCRemoteSwiftPackageReference "neumorphic" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/costachung/neumorphic";
@@ -715,21 +697,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DD60871D2B07AAE00007022E /* AWSCognitoAuthPlugin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */;
-			productName = AWSCognitoAuthPlugin;
-		};
-		DD60871F2B07AAE10007022E /* AWSS3StoragePlugin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */;
-			productName = AWSS3StoragePlugin;
-		};
-		DD6087212B07AAE10007022E /* Amplify */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DD60871C2B07AAE00007022E /* XCRemoteSwiftPackageReference "amplify-ios" */;
-			productName = Amplify;
-		};
 		DD9F77E62B084FD400797F8D /* Neumorphic */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DD9F77E52B084FD400797F8D /* XCRemoteSwiftPackageReference "neumorphic" */;
