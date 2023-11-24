@@ -10,7 +10,6 @@
 		15D572EB7A3020D9BC4A1DC8 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BCB3173CB786DED601EDF31B /* amplifyconfiguration.json */; };
 		B7D4E37E1A75071D9A2C51CC /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B53045FA2CA61D0C2CA01033 /* awsconfiguration.json */; };
 		DD6086EF2B051A660007022E /* Verde_LucidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086EE2B051A660007022E /* Verde_LucidApp.swift */; };
-		DD6086F12B051A660007022E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086F02B051A660007022E /* ContentView.swift */; };
 		DD6086F32B051A6A0007022E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6086F22B051A6A0007022E /* Assets.xcassets */; };
 		DD6086F62B051A6A0007022E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6086F52B051A6A0007022E /* Preview Assets.xcassets */; };
 		DD6087002B051A6A0007022E /* Verde_LucidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6086FF2B051A6A0007022E /* Verde_LucidTests.swift */; };
@@ -54,7 +53,6 @@
 		BCB3173CB786DED601EDF31B /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		DD6086EB2B051A660007022E /* Verde-Lucid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Verde-Lucid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6086EE2B051A660007022E /* Verde_LucidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verde_LucidApp.swift; sourceTree = "<group>"; };
-		DD6086F02B051A660007022E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD6086F22B051A6A0007022E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6086F52B051A6A0007022E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD6086FB2B051A6A0007022E /* Verde-LucidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Verde-LucidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,7 +147,6 @@
 				DDBE5AE92B10206C00329CFC /* Views */,
 				DDBE5AE82B10203A00329CFC /* ViewModels */,
 				DD6086EE2B051A660007022E /* Verde_LucidApp.swift */,
-				DD6086F02B051A660007022E /* ContentView.swift */,
 				DD6086F22B051A6A0007022E /* Assets.xcassets */,
 				DD6086F42B051A6A0007022E /* Preview Content */,
 			);
@@ -362,7 +359,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDBE5ADF2B0FAA0B00329CFC /* NeumorphicTextField.swift in Sources */,
-				DD6086F12B051A660007022E /* ContentView.swift in Sources */,
 				DDBE5AF12B10273600329CFC /* AddProductButtonView.swift in Sources */,
 				DD6086EF2B051A660007022E /* Verde_LucidApp.swift in Sources */,
 				DDBE5AE72B101F6000329CFC /* AddProductViewModel.swift in Sources */,
