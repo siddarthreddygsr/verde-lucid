@@ -145,11 +145,8 @@ struct ProductItemView: View {
                     Alert(title: Text("Cart"), message: Text("\(product.product_name) was added to cart"), dismissButton: .default(Text("OK")))
                             }
             }
-            .background(isDarkMode ? Color(red: 48/255, green: 49/255, blue: 53/255) : Color(red: 237/255, green: 240/255, blue: 243/255)) // Conditional background color
+            .background(DarkModeManager.isDarkMode ? Color(red: 48/255, green: 49/255, blue: 53/255) : Color(red: 237/255, green: 240/255, blue: 243/255)) // Conditional background color
         }
         
-    }
-    public var isDarkMode: Bool {
-        return UIApplication.shared.windows.first?.rootViewController?.traitCollection.userInterfaceStyle == .dark
     }
 }

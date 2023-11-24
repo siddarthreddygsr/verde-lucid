@@ -10,6 +10,10 @@
 import SwiftUI
 
 class ProductsListViewModel: ObservableObject {
+    @Published var show = false
+    @Published var selectedProduct: Product? = nil
+    @Published var isAddProductViewActive = false
+    @Published var showAlert = false
     @Published var products: [Product] = []
     @Published var filteredProducts: [Product] = []
     @Published var isLoading = false
